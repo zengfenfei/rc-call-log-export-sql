@@ -1,0 +1,12 @@
+{
+	"name": "rc-call-log-export-sql",
+	"version": "1.0.0",
+	"description": "Export call log from RingCentral to SQL databases",
+	"main": "build/export-pg.js",
+	"repository": "git@github.com:zengfenfei/rc-call-log-export-sql.git",
+	"author": "Kevin Zeng <zengfenfei@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"ringcentral-ts": "^0.3.3"
+	}
+}

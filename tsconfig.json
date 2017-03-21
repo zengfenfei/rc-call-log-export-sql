@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "./build",
+		"target": "es5",
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"sourceMap": true,
+		"declaration": true,
+		"pretty": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"importHelpers": true
+	},
+	"files": [
+		"src/export-pg.ts"
+	],
+	"compileOnSave": true
+}
