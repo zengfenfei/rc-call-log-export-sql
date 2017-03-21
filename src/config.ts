@@ -16,6 +16,15 @@ export interface Config {
 		extension: string;
 		password: string;
 	};
+
+	pg: {
+		user: string;
+		database: string;
+		host: string;
+		port: number;
+		max: number;
+		password: string;
+	}
 }
 
 let config: Config = require('../data/config.json');
